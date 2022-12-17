@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.home-salas img {
+  display: block;
+  max-width: 100%;
+}
+
+.home-salas .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.home-salas .container .icons {
+    align-self: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.home-salas .container h1 {
+  color: #5c5a54;
+  font-size: 2.15em;
+  align-self: center;
+  margin: 10px 0px 30px;
+}
+
+.home-salas .salas {
+  display: flex;
+  align-items: center;
+}
+
+.home-salas .sala-1, .sala-2, .sala-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 15px;
+  transition: 0.3s;
+}
+
+/*.home-salas .sala-1:hover, .sala-2:hover, .sala-3:hover {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+}*/
+
+.home-salas .sala-1:hover {
+  box-shadow: 2px 2px 30px #FEB30D;
+}
+
+.home-salas .sala-2:hover {
+  box-shadow: 2px 2px 30px #FA334F;
+}
+
+.home-salas .sala-3:hover {
+  box-shadow: 2px 2px 30px #00A648;
+}
+
+
+.home-salas .sala-1 .img, .sala-2 .img, .sala-3 .img {
+  margin: 30px 0;
+  width: 500px;
+}
+
+.home-salas .sala-1 h3, .sala-2 h3, .sala-3 h3 {
+  color: #5c5a54;
+}
+
+.home-salas .btn {
+    border: solid 2px;
+    border-radius: 20px;
+    align-self: center;
+    width: 30%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.home-salas .btn-salas1 {
+    background-color: white;
+    border-color: #FEB30D;
+    transition: 0.3s;
+}
+
+.home-salas .btn-salas1:hover {
+    background-color: #FEB30D;
+    border-color: #FEB30D;
+    color: white;
+}
+
+.home-salas .btn-salas2 {
+    background-color: white;
+    border-color: #FA334F;
+    transition: 0.3s;
+}
+
+.home-salas .btn-salas2:hover {
+    background-color: #FA334F;
+    border-color: #FA334F;
+    color: white;
+}
+
+.home-salas .btn-salas3 {
+    background-color: white;
+    border-color: #00A648;
+    transition: 0.3s;
+}
+
+.home-salas .btn-salas3:hover {
+    background-color: #00A648;
+    border-color: #00A648;
+    color: white;
+}

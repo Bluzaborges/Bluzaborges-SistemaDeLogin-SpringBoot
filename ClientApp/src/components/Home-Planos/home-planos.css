@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.home-planos a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-planos img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Menu-nav */
+.home-planos nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.home-planos .nav-logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.home-planos .nav-icons i {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.home-planos .nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.home-planos .nav-list li {
+  letter-spacing: 3px;
+  margin-left: 30px;
+}
+
+.home-planos .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  align-content: center;
+  position: relative;
+  top: 50px;
+}
+
+.home-planos .container h1 {
+  color: #5c5a54;
+  font-size: 2.15em;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.home-planos .container .icons {
+  align-self: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.home-planos .planos {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  justify-content: space-around;
+  color: grey;
+}
+
+.home-planos .plano {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  padding: 20px;
+}
+
+.home-planos .plano span {
+  font-weight: bold;
+}
+
+.home-planos .mensal {
+  border: 2px solid #4287f5;
+  border-radius: 25px;
+  box-shadow: 1px 2px 10px;
+  height: 250px;
+  width: 250px;
+}
+
+.home-planos .trimestral {
+  border: 2px solid #fafa23;
+  border-radius: 25px;
+  box-shadow: 1px 2px 10px;
+  height: 350px;
+  width: 250px;
+}
+
+.home-planos .semestral {
+  border: 2px solid #ed2431;
+  border-radius: 25px;
+  box-shadow: 1px 2px 10px;
+  height: 350px;
+  width: 250px;
+}
+
+.home-planos .anual {
+  border: 2px solid #15d13b;
+  border-radius: 25px;
+  box-shadow: 1px 2px 10px;
+  height: 350px;
+  width: 250px;
+}
+
+.home-planos .btn {
+    border: solid 2px;
+    border-radius: 20px;
+    align-self: center;
+    width: 55%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.home-planos .btn-plan1 {
+    background-color: white;
+    border-color: #0483D0;
+    transition: 0.3s;
+}
+
+.home-planos .btn-plan1:hover {
+    background-color: #0483D0;
+    border-color: #0483D0;
+    color: white;
+}
+
+.home-planos .btn-plan2 {
+    background-color: white;
+    border-color: #FEB30D;
+    transition: 0.3s;
+}
+
+.home-planos .btn-plan2:hover {
+    background-color: #FEB30D;
+    border-color: #FEB30D;
+    color: white;
+}
+
+.home-planos .btn-plan3 {
+    background-color: white;
+    border-color: #FA334F;
+    transition: 0.3s;
+}
+
+.home-planos .btn-plan3:hover {
+    background-color: #FA334F;
+    border-color: #FA334F;
+    color: white;
+}
+
+.home-planos .btn-plan4 {
+    background-color: white;
+    border-color: #00A648;
+    transition: 0.3s;
+}
+
+.home-planos .btn-plan4:hover {
+    background-color: #00A648;
+    border-color: #00A648;
+    color: white;
+}
