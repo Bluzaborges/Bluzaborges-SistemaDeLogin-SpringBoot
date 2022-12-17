@@ -6,7 +6,7 @@ Projeto desenvolvido na disciplina de Engenharia de Software utilizando metodolo
 
 #### Iniciando o backend
 
-A informações de conexão com o banco de dados estão localizadas no arquivo application.yml. O backend deve ser inicializado no diretório ~\\sports\sports com os seguintes comandos:
+A informações de conexão com o banco de dados estão localizadas no arquivo application.yml. O backend deve ser inicializado no diretório ~\\sports com os seguintes comandos:
 
 ```shell
 mvn install
@@ -25,7 +25,7 @@ maildev
 
 #### Iniciando o frontend
 
-Com o backend inicializado, é hora de inicializar o frontend. Ele deve ser inicializado no diretório ~\sports\ClientApp com o seguinte comando:
+Com o backend inicializado, é hora de inicializar o frontend. Ele deve ser inicializado no diretório ~\\ClientApp com o seguinte comando:
 
 ```
 yarn start
